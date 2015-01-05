@@ -4,7 +4,7 @@ echo 'Enter site name. (For example example.dev)'
 read SITENAME
 
 echo 'Creating host...'
-echo 'Copy yhis text to editor (CTRL/ins in terminal)'
+echo 'Copy this text to editor (CTRL/ins in terminal)'
 echo '<VirtualHost *:80>'
 echo ' ServerAdmin webmaster@'$SITENAME
 echo '	ServerName ' $SITENAME
